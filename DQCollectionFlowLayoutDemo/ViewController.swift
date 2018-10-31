@@ -90,6 +90,7 @@ class ViewController: UIViewController {
         flowLayout.sectionInset  = UIEdgeInsetsMake(0, 8, 0, 8);
         
         flowLayout.scrollingNeedToZoomCell = true
+        flowLayout.zoomScale = 1.5
         
         
         collectionView.register(DQContainerCell.self, forCellWithReuseIdentifier: "DQContainerCell")

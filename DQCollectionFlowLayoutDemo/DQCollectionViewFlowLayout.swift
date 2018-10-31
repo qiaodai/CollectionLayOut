@@ -360,7 +360,7 @@ class DQCollectionViewFlowLayout: UICollectionViewFlowLayout,UIGestureRecognizer
 
             self.setLayoutIfNeeded()
             
-            delegate?.draggingViewMoving(self.currentView)
+            delegate?.draggingViewMoving?(self.currentView)
             
             switch self.scrollDirection {
             case UICollectionViewScrollDirection.vertical:
